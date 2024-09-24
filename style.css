@@ -1,0 +1,40 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.form_div{
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+}
+
+.form_div input{
+    padding: 6px 30px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+.error{
+    color: brown;
+    text-align: center;
+}
+
+.form_div input ::placeholder{
+   color: rgb(82, 82, 82);
+}
+
+.bth{
+    background-color: burlywood;
+    padding: 6px 30px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
